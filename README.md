@@ -5,10 +5,10 @@ To launch this project you need to install docker desctop on your PC
 
 ### Steps:
 
-####1. Clone github repository on your local machine: <br>
+#### 1. Clone github repository on your local machine: <br>
 `git clone https://github.com/pshkravets/ttask_receipts.git` 
    
-####2. Come to root directory of this project and run container: <br>
+#### 2. Come to root directory of this project and run container: <br>
 `docker-compose up`
 
 Now your application is launched and ready to use:) 
@@ -43,7 +43,7 @@ Endpoint so that creates user's account
 - login: required
 - password: required
 
-####Description:
+#### Description:
 Endpoint so user could authorizate and get his JWT
 
 ![authorize](readme_img/authorize.png)
@@ -57,7 +57,7 @@ Endpoint so user could authorizate and get his JWT
 - product: list of products where each contains it's name, price and quantity
 
 
-####Description:
+#### Description:
 Creates new Receipt
 
 ![create_receipt](readme_img/create_receipt.png)
@@ -77,7 +77,7 @@ param filters:
 - param limit: set's pagination for receipts, not required
 - param offset: set's offset, not required
 
-####Description:
+#### Description:
 Return's filtered list of user's receipts
 
 
@@ -90,7 +90,7 @@ Return's filtered list of user's receipts
 #### Params: 
 - receipt id, required
 
-####Description:
+#### Description:
 Returns specific receipt by it's id
 
 
@@ -103,7 +103,7 @@ Returns specific receipt by it's id
 - receipt id, required
 - chars_per_line, optional 
 
-####Description:
+#### Description:
 Returns check in text(HTML) format
 
 
